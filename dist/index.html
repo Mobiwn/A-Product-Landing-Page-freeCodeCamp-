@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Product Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+     <img
+        id="header-img"
+        src="https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png" 
+        alt="original trombones logo"
+      /> 
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+    <h2></h2>
+    <h2>Masterpieces</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </section>
+
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Premium Materials</h2>
+          <p>
+            Our notebooks use the best materials possible which are sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="desc">
+          <h2>Fast Shipping</h2>
+          <p>
+            We make sure you recieve your notebook as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+        </div>
+        <div class="desc">
+          <h2>Quality Assurance</h2>
+          <p>
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the quality of your laptop.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works">
+      <iframe  id="video" width="560" height="315" src="https://www.youtube.com/embed/9vtarrOecew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="tenor">
+        <div class="level">New XPS 15 Touch Laptop</div>
+        <h2>$2,799.99</h2>
+        <ol>
+          <li>10th Generation Intel® Core™ i9-10885H (16MB Cache, up to 5.3 GHz, 8 cores)</li>
+          <li>NVIDIA® GeForce® GTX 1650 Ti 4GB GDDR6</li>
+          <li>32GB DDR4-2933MHz, 2x16G </li>
+          <li>1TB M.2 PCIe NVMe Solid State Drive</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="bass">
+        <div class="level">XPS 15 Laptop</div>
+        <h2>$1,899.99</h2>
+        <ol>
+          <li>10th Generation Intel® Core™ i7-10750H (12MB Cache, up to 5.0 GHz, 6 cores)</li>
+          <li>NVIDIA® GeForce® GTX 1650 Ti 4GB GDDR6</li>
+          <li>32GB DDR4-2933MHz, 2x16G</li>
+          <li>1TB M.2 PCIe NVMe Solid State Drive</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="valve">
+        <div class="level">XPS 13 2-in-one Laptop</div>
+        <h2>$1,949.99</h2>
+        <ol>
+          <li>11th Generation Intel® Core™ i7-1165G7 Processor (12MB Cache, up to 4.7 GHz)</li>
+          <li>Intel® Iris Xe Graphics</li>
+          <li>32GB 4267MHz LPDDR4x Memory Onboard</li>
+          <li>1TB PCIe NVMe x4 Solid State Drive Onboard</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2016, Original Trombones</span>
+      <span> <cite style="text-align: center;">
+        Written and coded by <a href="https://github.com/mobiwn" target="_blank">Mobin Kheibary</a>
+      </cite>
+        .
+      </span>
+    </footer>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+</body>
+</html>
